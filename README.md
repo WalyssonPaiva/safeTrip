@@ -1,3 +1,6 @@
+![logo](https://github.com/WalyssonPaiva/safeTrip/blob/master/600%20logo%20fundo%20cinza.png)
+
+
 # SafeTrip
 
 ## 	O que é o SafeTrip ?
