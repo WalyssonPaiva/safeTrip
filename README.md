@@ -1,4 +1,4 @@
-<img src= "WalyssonPaiva/safeTrip/logo.png" "width=25%">
+![logo](https://github.com/WalyssonPaiva/safeTrip/blob/master/logo.png)
 
 
 # SafeTrip
