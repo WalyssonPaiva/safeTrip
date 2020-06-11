@@ -1,4 +1,4 @@
-![logo](https://github.com/WalyssonPaiva/safeTrip/blob/master/logo.png)
+![logo](https://github.com/WalyssonPaiva/safeTrip/blob/master/logo%20(1).png)
 
 
 # SafeTrip
