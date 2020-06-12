@@ -29,7 +29,7 @@ const Login = () => {
       <View style={styles.container}>
         <View style={styles.cosmetic}>
           <CustomText bold style={styles.cosmeticTitle}>
-            AppName
+            Safe Trip
           </CustomText>
           <CustomText style={styles.cosmeticSubtitle}>
             Você sabia que o Brasil tem mais de 8,5mi de km² de extensão
