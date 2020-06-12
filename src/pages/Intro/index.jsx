@@ -13,8 +13,8 @@ import styles from './styles';
 const Intro = () => {
   const navigation = useNavigation();
 
-  const handleNavigateToLoginPage = () => {
-    navigation.navigate('Login');
+  const handleNavigateToMainPage = () => {
+    navigation.navigate('Main');
   };
 
   return (
@@ -72,7 +72,7 @@ const Intro = () => {
       <View>
         <RectButton
           style={styles.startButton}
-          onPress={handleNavigateToLoginPage}
+          onPress={handleNavigateToMainPage}
         >
           <Text style={styles.buttonText}>Começar</Text>
         </RectButton>
