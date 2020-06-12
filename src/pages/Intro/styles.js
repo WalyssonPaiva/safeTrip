@@ -16,13 +16,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    fontFamily: 'NunitoSans_700Bold',
     fontSize: 30,
     textAlign: 'center',
     marginTop: 10,
   },
   subtitle: {
-    fontFamily: 'NunitoSans_400Regular',
     color: '#6C6C80',
     fontSize: 20,
     textAlign: 'center',
@@ -38,7 +36,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   buttonText: {
-    fontFamily: 'NunitoSans_700Bold',
     fontSize: 20,
     color: '#FFF',
   },

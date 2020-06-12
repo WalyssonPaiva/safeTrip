@@ -14,6 +14,8 @@ import MapView from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import getDirections from 'react-native-google-maps-directions';
 
+import CustomText from '../../components/CustomText';
+
 import Geocoder from 'react-native-geocoding';
 import styles from './styles';
 
@@ -163,13 +165,13 @@ export default class Map extends Component {
         >
           <MapView.Marker coordinate={this.state.destination}>
             <MapView.Callout onPress={this.handleGetGoogleMapDirections}>
-              <Text>Press to Get Direction</Text>
+              <CustomText>Press to Get Direction</CustomText>
             </MapView.Callout>
           </MapView.Marker>
 
           <MapView.Marker coordinate={this.state.origin}>
             <MapView.Callout>
-              <Text>This is where you are</Text>
+              <CustomText>This is where you are</CustomText>
             </MapView.Callout>
           </MapView.Marker>
 
@@ -196,7 +198,9 @@ export default class Map extends Component {
           />
 
           <TouchableOpacity style={styles.button} onPress={this.handleButton}>
-            <Text style={styles.buttonText}>Buscar rota</Text>
+            <CustomText bold style={styles.buttonText}>
+              Buscar rota
+            </CustomText>
           </TouchableOpacity>
         </View>
       </View>

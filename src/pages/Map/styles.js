@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
 
   buttonText: {
     color: '#fff',
-    fontWeight: 'bold',
     fontSize: 18,
   },
 
@@ -48,6 +47,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 5,
     padding: 2,
+    fontFamily: 'NunitoSans_400Regular',
   },
 });
 

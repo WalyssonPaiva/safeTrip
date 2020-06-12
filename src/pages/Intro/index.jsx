@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Image } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 import Swiper from 'react-native-swiper';
@@ -8,13 +8,15 @@ import firstImage from '../../assets/firstImage.png';
 import secondImage from '../../assets/secondImage.png';
 import thirdImage from '../../assets/thirdImage.png';
 
+import CustomText from '../../components/CustomText';
+
 import styles from './styles';
 
 const Intro = () => {
   const navigation = useNavigation();
 
-  const handleNavigateToMainPage = () => {
-    navigation.navigate('Main');
+  const handleNavigateToLoginPage = () => {
+    navigation.navigate('Login');
   };
 
   return (
@@ -33,13 +35,13 @@ const Intro = () => {
             resizeMode="contain"
             source={firstImage}
           />
-          <Text style={styles.title}>
+          <CustomText bold style={styles.title}>
             Tenha uma viagem mais segura e saudável!
-          </Text>
-          <Text style={styles.subtitle}>
+          </CustomText>
+          <CustomText style={styles.subtitle}>
             AppName irá lhe auxiliar nas suas viagens. Continue para saber mais
             detalhes!
-          </Text>
+          </CustomText>
         </View>
         <View style={styles.slide}>
           <Image
@@ -47,13 +49,13 @@ const Intro = () => {
             style={{ height: 150, width: '100%' }}
             resizeMode="contain"
           />
-          <Text style={styles.title}>
+          <CustomText bold style={styles.title}>
             Lembretes para auxiliar sua alimentação
-          </Text>
-          <Text style={styles.subtitle}>
+          </CustomText>
+          <CustomText style={styles.subtitle}>
             Durante sua viagem, nós iremos te lembrar a se alimentar (de maneira
             saudável, ok?)
-          </Text>
+          </CustomText>
         </View>
         <View style={styles.slide}>
           <Image
@@ -61,20 +63,24 @@ const Intro = () => {
             style={{ height: 150, width: '100%' }}
             resizeMode="contain"
           />
-          <Text style={styles.title}>Alertas sobre áreas perigosas</Text>
-          <Text style={styles.subtitle}>
+          <CustomText bold style={styles.title}>
+            Alertas sobre áreas perigosas
+          </CustomText>
+          <CustomText style={styles.subtitle}>
             Os caminhoneiros que utilizam nosso app podem registrar áreas
             potencialmente hostis. Assim, você poderá evitá-las!
-          </Text>
+          </CustomText>
         </View>
       </Swiper>
 
       <View>
         <RectButton
           style={styles.startButton}
-          onPress={handleNavigateToMainPage}
+          onPress={handleNavigateToLoginPage}
         >
-          <Text style={styles.buttonText}>Começar</Text>
+          <CustomText bold style={styles.buttonText}>
+            Começar
+          </CustomText>
         </RectButton>
       </View>
     </View>

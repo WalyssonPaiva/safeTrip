@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/nunito-sans": "^0.1.0",
+    "@expo/vector-icons": "^10.2.0",
     "@react-native-community/masked-view": "0.1.6",
     "@react-navigation/native": "^5.5.1",
     "@react-navigation/stack": "^5.5.1",
@@ -21,7 +22,7 @@
     "react-native-geocoding": "^0.4.0",
     "react-native-gesture-handler": "~1.6.0",
     "react-native-google-maps-directions": "^2.1.1",
-    "react-native-maps": "^0.27.1",
+    "react-native-maps": "0.26.1",
     "react-native-maps-directions": "^1.8.0",
     "react-native-reanimated": "~1.7.0",
     "react-native-safe-area-context": "0.7.3",
