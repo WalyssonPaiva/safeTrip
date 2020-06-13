@@ -39,8 +39,8 @@ const Intro = () => {
             Tenha uma viagem mais segura e saudável!
           </CustomText>
           <CustomText style={styles.subtitle}>
-            AppName irá lhe auxiliar nas suas viagens. Continue para saber mais
-            detalhes!
+            Safe Trip irá lhe auxiliar nas suas viagens. Continue para saber
+            mais detalhes!
           </CustomText>
         </View>
         <View style={styles.slide}>
