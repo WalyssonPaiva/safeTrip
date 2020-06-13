@@ -11,10 +11,10 @@
 # Este projeto foi desenvolvimento com as seguintes tecnologias: 
  
  <ul>
-  <li> a 
-  <li> b
-  <li> c 
-  <li> d 
+  <li> React-Native [ Expo ]
+  <li> Google Maps API
+  <li> Firebase
+  <li> OneSignal
   <ui>
  
  
