@@ -12,8 +12,6 @@
  <ul>
   <li> React-Native [ Expo ]
   <li> Google Maps API
-  <li> Firebase
-  <li> OneSignal
   <ui>
  
  
