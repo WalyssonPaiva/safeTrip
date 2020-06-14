@@ -5,9 +5,8 @@
 
 ## 	O que é o SafeTrip ?
 
-  O SafeTrip é um projeto que possui como objetivo auxiliar a  rotina dos caminhoneiros, tornando ela mais saúdavel mentalmente e fisicamente para os motoristas.
-  A finalidade do SafeTrip é nortear os caminhoneiros, como recomendações de refeições saúdaveis e a quantidade de horas de sono ideais. Além disso os motoristas poderam  cadastras trechos que são perigosos e assim informando os outros caminhoneiros. 
- 
+  O Safe Trip é um projeto que possui como objetivo auxiliar a rotina dos caminhoneiros, tornando ela mais saudável mentalmente e fisicamente para os motoristas. A finalidade do Safe Trip é nortear os caminhoneiros, como recomendações de refeições saudáveis e a quantidade de horas de sono ideais. Além disso os motoristas poderão cadastrar trechos que são perigosos e assim informando os outros caminhoneiros. 
+
 # Este projeto foi desenvolvimento com as seguintes tecnologias: 
  
  <ul>
